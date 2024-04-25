@@ -1,0 +1,73 @@
+html,
+body{
+    padding:0;
+    margin:0;
+}
+
+header, footer, main, aside, nav, div {
+ 
+  border: solid 2px #000000;
+  margin: 1px;
+  font: bold 40px "Courier New", Courier, monospace;
+  white-space: inherit;
+}
+
+#banner {
+  height: 100px;
+  background: gray;
+}
+
+#navigation {
+  float: left;
+  width: 15%;
+  height: 400px;
+  background: white;
+}
+
+#main {
+  float: left;
+  width: 84%;
+  height: 400px;
+  background: white;
+}
+
+#complementary {
+  float: left;
+  width: 15%;
+  height: 400px;
+  background: gray;
+}
+
+#contentinfo {
+  clear: both;
+  height: 100px;
+  background: gray;
+}
+
+#search {
+  background: #ffff00;
+  font-size: small;
+}
+
+#form {
+  background: #fafad2;
+  font-size: medium;
+}
+
+#application {
+  background: #f5f5f5;
+  font-size: medium;
+  width: 300px;
+  height: 200px
+}
+
+ ul {
+  list-style: none;
+}
+
+ li {
+  position: relative;
+  font-family: Arial;
+  font-size: 20px;
+  margin: 10px;
+}
